@@ -19,6 +19,15 @@ Attach the Readable behavior to the model
 		$actsAs = array('Readable.Readable');
 	}
 
+Add a 'read' boolean column in your table or change the default field name
+	
+	public Post extends AppModel{
+		$actsAs = array('Readable.Readable' => array(
+			'field' => 'displayed'
+		));
+	}
+
+
 Usage
 ------------------------------
 
