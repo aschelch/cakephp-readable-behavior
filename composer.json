@@ -2,6 +2,9 @@
     "name": "aschelch/cakephp-readable-behavior",
     "description": "CakePHP ReadableBehavior provides a simple behavior to make a 'Mark as Read/Unread' feature for your models",
     "type": "cakephp-plugin",
+    "extra": {
+        "installer-name": "Readable"
+    },
     "keywords": ["cakephp", "behavior"],
     "homepage": "https://github.com/aschelch/cakephp-readable-behavior",
     "authors": [
